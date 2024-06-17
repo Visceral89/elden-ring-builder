@@ -1,0 +1,158 @@
+{
+  "main": {
+    "id": "ff1f600da04d9225",
+    "type": "split",
+    "children": [
+      {
+        "id": "d5c5122e85260e40",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d31833262f47006a",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "Flowchart.canvas",
+                "viewState": {
+                  "x": -42.4000244140625,
+                  "y": 70.4000244140625,
+                  "zoom": 0
+                }
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "df2d30bfc7ae79e6",
+    "type": "split",
+    "children": [
+      {
+        "id": "eb14fdb653dcd6af",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "99d62d1314549848",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "ed3de61293c48a99",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "24efc17ef18ef1b8",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "35495e2ce50c3344",
+    "type": "split",
+    "children": [
+      {
+        "id": "b59e56040982dab8",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "df6aa345073157be",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Flowchart.canvas",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "90b082f95b69fbd1",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Flowchart.canvas",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "c9f6eefddec0794e",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "ec7d7bcdde8b3837",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Flowchart.canvas"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "d31833262f47006a",
+  "lastOpenFiles": [
+    "Untitled.md",
+    "Welcome.md",
+    "Flowchart.canvas"
+  ]
+}
