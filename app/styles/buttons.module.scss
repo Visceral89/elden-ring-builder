@@ -1,0 +1,12 @@
+@import "./variables";
+// Default Styling for a Button
+.button {
+	padding: 0.7rem 4rem 0.7rem 4rem;
+
+	background-color: $background-color;
+	color: $text-color;
+	border: 2px solid $text-inactive;
+	&:hover {
+		box-shadow: inset 0px 0px 30px 0px $text-inactive;
+	}
+}

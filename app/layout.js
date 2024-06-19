@@ -1,5 +1,6 @@
 import { Cinzel } from "next/font/google";
 import "./globals.scss";
+import styles from "./styles/layout.module.scss";
 
 const chinzel = Cinzel({ subsets: ["latin"] });
 
@@ -11,7 +12,9 @@ export const metadata = {
 export default function RootLayout({ children }) {
 	return (
 		<html lang='en'>
-			<body className={chinzel.className}>{children}</body>
+			<body className={chinzel.className}>
+				<div className={styles.backgroundContainer}>{children}</div>
+			</body>
 		</html>
 	);
 }
