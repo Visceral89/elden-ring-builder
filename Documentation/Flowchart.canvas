@@ -1,11 +1,16 @@
 {
 	"nodes":[
-		{"id":"3c0584d035d829a3","x":-216,"y":-8,"width":250,"height":60,"color":"5","type":"text","text":"Create Build (Pressed)"},
-		{"id":"1da32dc2ce87c8a4","x":-216,"y":-180,"width":250,"height":60,"color":"6","type":"text","text":"Welcome Page (Title & Button)"},
-		{"id":"ef5d0fd8a9e15b0a","x":-216,"y":180,"width":250,"height":60,"color":"6","type":"text","text":"Builder Page"}
+		{"id":"1da32dc2ce87c8a4","type":"text","text":"Welcome Page (Title & Button)","x":-216,"y":-180,"width":250,"height":60,"color":"6"},
+		{"id":"3c0584d035d829a3","type":"text","text":"Create Build (Pressed)","x":-320,"y":0,"width":250,"height":60,"color":"5"},
+		{"id":"ffb0a0381a131f3c","x":-20,"y":0,"width":250,"height":60,"color":"5","type":"text","text":"Load Build\n"},
+		{"id":"ef5d0fd8a9e15b0a","type":"text","text":"Builder Page","x":-320,"y":360,"width":250,"height":60,"color":"6"},
+		{"id":"5ad4275989c60cd1","x":60,"y":180,"width":250,"height":60,"type":"text","text":"Input Code Page (Load Page)"}
 	],
 	"edges":[
 		{"id":"a1cd37a8f70cc203","fromNode":"1da32dc2ce87c8a4","fromSide":"bottom","toNode":"3c0584d035d829a3","toSide":"top"},
-		{"id":"0cb0b4452f688a7e","fromNode":"3c0584d035d829a3","fromSide":"bottom","toNode":"ef5d0fd8a9e15b0a","toSide":"top"}
+		{"id":"0cb0b4452f688a7e","fromNode":"3c0584d035d829a3","fromSide":"bottom","toNode":"ef5d0fd8a9e15b0a","toSide":"top"},
+		{"id":"04f8c5c6762e35dd","fromNode":"1da32dc2ce87c8a4","fromSide":"bottom","toNode":"ffb0a0381a131f3c","toSide":"top"},
+		{"id":"90ceab1b22881015","fromNode":"ffb0a0381a131f3c","fromSide":"bottom","toNode":"5ad4275989c60cd1","toSide":"top"},
+		{"id":"94cbcb75eadfe664","fromNode":"5ad4275989c60cd1","fromSide":"left","toNode":"ef5d0fd8a9e15b0a","toSide":"top"}
 	]
 }
