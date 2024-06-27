@@ -20,11 +20,3 @@ export const getAllClassDetails = (name) => {
 	const classObj = classesData.find((cls) => cls.name === name);
 	return classObj || null;
 };
-
-export {
-	classNames,
-	getClassStats,
-	getClassImage,
-	getClassDescription,
-	getAllClassDetails,
-};
